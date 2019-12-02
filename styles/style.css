@@ -43,7 +43,7 @@ body {
   width: 100%;
 }
 
-.dot-collection{
+.dot-collection {
   display: flex;
   justify-content: flex-end;
   margin-top: -1.8em;
@@ -61,18 +61,18 @@ body {
   opacity: 30%;
 }
 
-.dot:last-child{
+.dot:last-child {
   opacity: 80%;
 }
 
-.option-list{
+.option-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   background-color: white;
 }
 
-.option{
+.option {
   width: 80%;
   padding: 0.5em;
   margin: 0 auto;
@@ -84,7 +84,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.option:nth-child(2){
+.option:nth-child(2) {
   background-color: red;
   color: white;
 }
