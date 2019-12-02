@@ -62,7 +62,7 @@ body {
 }
 
 .dot:last-child{
-  opacity: 1;
+  opacity: 80%;
 }
 
 .option-list{
