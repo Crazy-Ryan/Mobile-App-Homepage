@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  border: black 1px solid;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title{
+  flex-grow: 1;
+}
+
+.banner .iconfont {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.page-title {
+  margin-left: 0px;
+
+  border: brown 1px solid;
+}
+
+.gallary img {
+  width: 100%;
+}
+
+.dot-collection{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -3em;
+  padding-right: 1em;
+}
+
+.dot {
+  width: 1em;
+  height: 1em;
+  margin: 0.3em;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 30%;
+}
+
+.dot:last-child{
+  opacity: 1;;
+}
