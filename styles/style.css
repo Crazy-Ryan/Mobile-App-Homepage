@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 html {
@@ -9,7 +9,7 @@ html {
 
 }
 body {
-  width: 30%;
+  width: 100%;
   margin: 0 auto;
   border: black 1px solid;
 }
@@ -38,7 +38,7 @@ body {
   color: white;
 }
 
-.gallary img {
+.rolling-pics img {
   display: block;
   width: 100%;
 }
@@ -49,7 +49,6 @@ body {
   margin-top: -1.8em;
   padding-right: 1em;
   padding-bottom: 0.6em;
-  background-color: none;
 }
 
 .dot {
@@ -65,26 +64,24 @@ body {
   opacity: 80%;
 }
 
-.option-list {
-  display: grid;
+.course-list {
   grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
   align-items: center;
   background-color: white;
 }
 
-.option {
+.course {
   width: 80%;
   padding: 0.5em;
-  margin: 0 auto;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin: 0.25em auto;
   border: 1px solid rgb(230,230,230);
   border-radius: 1.5em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.option:nth-child(2) {
+.course:nth-child(2) {
   background-color: red;
   color: white;
 }
